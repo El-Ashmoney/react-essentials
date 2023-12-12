@@ -1,0 +1,31 @@
+#core-concept{
+    padding: 2rem;
+    border-radius: 50px;
+    background: rgba(20,33,61,0.4);
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(20,33,61,0.2);
+    /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4); */
+    width: 70%;
+    margin: 50px auto;
+}
+
+#core-concept h2{
+    font-size: 2rem;
+}
+
+#core-concept h2, #core-concept ul li h3{
+    color: #FCA311;
+}
+
+#core-concept ul{
+    list-style: none;
+    padding: 0;
+}
+
+#core-concept ul li{
+    display: inline-block;
+    margin: auto 50px;
+    color: #EEE;
+    width: 16%;
+}

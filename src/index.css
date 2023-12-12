@@ -1,24 +1,23 @@
 body {
     margin: 0;
     background:
-    radial-gradient(32px at calc(100% + calc(32px*.866)) 50%,#000000 99%, #0000 101%) 0 calc(-5*32px/2),
-    radial-gradient(32px at calc(100% + calc(32px*.866)) 50%,#000000 99%, #0000 101%) calc(-2*calc(32px*.866)) calc(32px/2),
-    radial-gradient(32px at 100% 50%,#14213d 99%, #0000 101%) 0 calc(-2*32px),
-    radial-gradient(32px,#000000 99%, #0000 101%) calc(32px*.866) calc(-5*32px/2),
-    radial-gradient(32px,#14213d 99%, #0000 101%) calc(32px*.866) calc( 5*32px/2),
-    radial-gradient(32px at 100% 100%,#000000 99%, #0000 101%) 0 calc(-1*32px),   
-    radial-gradient(32px at 0%   50% ,#000000 99%, #0000 101%) 0 calc(-4*32px),
-    radial-gradient(32px,#14213d 99%, #0000 101%) calc(-1*calc(32px*.866)) calc(-7*32px/2),
-    radial-gradient(32px,#000000 99%, #0000 101%) calc(-1*calc(32px*.866)) calc(-5*32px/2),
-    radial-gradient(32px at 100% 50%,#14213d 99%, #0000 101%) calc(-2*calc(32px*.866)) 32px,
-    radial-gradient(32px,#000000 99%, #0000 101%) calc(-1*calc(32px*.866)) calc(32px/ 2),
-    radial-gradient(32px,#14213d 99%, #0000 101%) calc(-1*calc(32px*.866)) calc(32px/-2),
-    radial-gradient(32px,#000000 99%, #0000 101%) 0 calc(-1*32px),
-    radial-gradient(32px,#14213d 99%, #0000 101%) calc(32px*.866) calc(32px/-2),
-    radial-gradient(32px,#000000 99%, #0000 101%) calc(32px*.866) calc(32px/ 2) 
-    #14213d;
-background-size: calc(4*calc(32px*.866)) calc(6*32px);
-
+        radial-gradient(32px at calc(100% + calc(32px*.866)) 50%,#000000 99%, #0000 101%) 0 calc(-5*32px/2),
+        radial-gradient(32px at calc(100% + calc(32px*.866)) 50%,#000000 99%, #0000 101%) calc(-2*calc(32px*.866)) calc(32px/2),
+        radial-gradient(32px at 100% 50%,#14213d 99%, #0000 101%) 0 calc(-2*32px),
+        radial-gradient(32px,#000000 99%, #0000 101%) calc(32px*.866) calc(-5*32px/2),
+        radial-gradient(32px,#14213d 99%, #0000 101%) calc(32px*.866) calc( 5*32px/2),
+        radial-gradient(32px at 100% 100%,#000000 99%, #0000 101%) 0 calc(-1*32px),   
+        radial-gradient(32px at 0%   50% ,#000000 99%, #0000 101%) 0 calc(-4*32px),
+        radial-gradient(32px,#14213d 99%, #0000 101%) calc(-1*calc(32px*.866)) calc(-7*32px/2),
+        radial-gradient(32px,#000000 99%, #0000 101%) calc(-1*calc(32px*.866)) calc(-5*32px/2),
+        radial-gradient(32px at 100% 50%,#14213d 99%, #0000 101%) calc(-2*calc(32px*.866)) 32px,
+        radial-gradient(32px,#000000 99%, #0000 101%) calc(-1*calc(32px*.866)) calc(32px/ 2),
+        radial-gradient(32px,#14213d 99%, #0000 101%) calc(-1*calc(32px*.866)) calc(32px/-2),
+        radial-gradient(32px,#000000 99%, #0000 101%) 0 calc(-1*32px),
+        radial-gradient(32px,#14213d 99%, #0000 101%) calc(32px*.866) calc(32px/-2),
+        radial-gradient(32px,#000000 99%, #0000 101%) calc(32px*.866) calc(32px/ 2) 
+        #14213d;
+    background-size: calc(4*calc(32px*.866)) calc(6*32px);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
         'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
         sans-serif;
