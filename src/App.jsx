@@ -30,7 +30,6 @@ function App() {
                             <TabButton onSelect={handleSelect}>Props</TabButton>
                             <TabButton onSelect={handleSelect}>State</TabButton>
                         </menu>
-
                     </section>
                 </section>
             </main>

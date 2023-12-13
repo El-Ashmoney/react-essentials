@@ -16,8 +16,20 @@
     transition: background-color 0.5s ease-out;
     border: none;
     border-radius: 50px;
-    font-size: 1rem;
+    font-size: 1.17em;
     cursor: pointer;
+    /* Adjust the ring size and color as needed */
+    box-shadow: 0 0 0 1px rgb(252, 163, 17); /* Example: blue ring */
+    /* Additional styles for your element */
+    border: none; /* Remove default border if necessary */
+    outline: none; /* Remove default focus outline */
+}
+
+#examples menu li button:focus {
+    /* Different ring style for focus state, if desired */
+    box-shadow: 0 0 0 1px rgba(59, 130, 246, 0.75); /* Example: darker blue ring on focus */
+    background: #fca311;
+    color: #000;
 }
 
 #examples menu li button:hover{
