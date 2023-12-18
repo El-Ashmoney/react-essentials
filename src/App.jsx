@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
 import { CORE_CONCEPTS } from './data.js';
 import Header from './components/Header/Header.jsx';
@@ -7,8 +8,9 @@ import TabButton from './components/TabButton/TabButton.jsx';
 
 
 function App() {
+    const [ selectedTopic, setSelectedTopic ] = useState();
     function handleSelect(selectedButtons) {
-        console.log(selectedButtons);
+        setSelectedTopic(selectedButtons);
     }
     return (
         <div className="App">
@@ -30,7 +32,7 @@ function App() {
                             <TabButton onSelect={() => handleSelect('props')}>Props</TabButton>
                             <TabButton onSelect={() => handleSelect('state')}>State</TabButton>
                         </menu>
-                        Dynamic Content
+                        {selectedTopic}
                     </section>
                 </section>
             </main>
